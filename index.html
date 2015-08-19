@@ -1,11 +1,62 @@
-<!DOCTYPE HTML>
-<HTML>
-  <HEAD>
-    <STYLE>body{font-family:sans-serif}</STYLE>
-  </HEAD>
-  <BODY>
-    <A href="/CLI/">Go to CapsLock Indicator</A>
-    <BR />
-    <A href="/tools/">Go to tools</A>
-  </BODY>
-</HTML>
+<!doctype html>
+<html>
+	<head>
+		<title>Brennced</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<style>
+			* {
+				font-family: sans-serif;
+			}
+			h1 {
+				margin: 0px;
+				position: absolute;
+				left: 0px;
+				top: 0px;
+				width: 100%;
+				background-color: #EDEDED;
+				border-bottom: 1px solid #929292;
+				box-shadow: 0px 2px 2px rgba(0,0,0,0.33);
+				padding: 8px 0px;
+			}
+			#hl {
+				margin: 0px 0px 0px 25px;
+			}
+			#spacetop {
+				border: 0px solid transparent;
+				margin-top: 70px;
+			}
+			a {
+				color: #0D7FFE;
+				text-decoration: none;
+			}
+			a:hover {
+				text-decoration: underline;
+			}
+			a:after {
+				content: "http://brennced.github.io" attr(href);
+				display: none;
+				position: relative;
+				left: 15px;
+				color: #FFFFFF;
+				text-decoration: none;
+				font-size: 70%;
+				vertical-align: middle;
+				background-color: #0D7FFE;
+				padding: 1px;
+			}
+			a:hover:after {
+				display: initial;
+			}
+		</style>
+	</head>
+	<body>
+		<h1><span id="hl">Brennced</span></h1>
+		<hr id="spacetop" />
+		<figure>
+			<a href="/CLI/">Go to CapsLock Indicator</a>
+			<br />
+			<a href="/tools/">Go to tools</a>
+		</figure>
+	</body>
+</html>
